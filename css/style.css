@@ -41,14 +41,6 @@ section{
     animation: fadein 2s;
 }
 
-.planejamento{
-    animation: fadein 1s;
-}
-
-.neco-dance{
-    animation: fadein 1s;
-}
-
 .navbar-brand{
     font-family: 'Concert One', cursive;
 }
@@ -82,28 +74,6 @@ footer{
     align-items: center;
 }
 
-.container-atv{
-    align-items: center;
-    align-content: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    
-    /* border-style: solid;
-    border-color: rgb(118, 255, 27);
-    border-radius: 5px; */
-}   
-.container-atv, .atividade, .materia, .trabalhos{
-    animation: fadein 1s;
-    text-align: center;
-    align-items: center;
-}
-
-.autoria-txt{
-    font-size: 20px;
-    color: white ;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 hr{
     width: 60%;
     margin-left: auto;
@@ -128,3 +98,29 @@ max-height: 40%;
 font-size: 20px;
 padding-left: 20px;
 }
+
+.website-counter {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.website-counter {
+    background-color: #ff4957;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  #reset {
+    margin-top: 20px;
+    background-color: #008cba;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 8px 20px;
+    color: white;
+    border: 0;
+  }
